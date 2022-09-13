@@ -1,0 +1,44 @@
+
+.img__account {
+    border-radius: 50%;
+}
+
+.container--modifier {
+    width: 80%;
+}
+
+.navbar--modifier {
+    border-bottom: 1px solid rgba(98, 98, 195, 0.7);
+}
+
+.modal-lg {
+    max-width: 60% !important;
+}
+
+.color__darkblue {
+    color: rgb(52, 52, 187);
+}
+
+.img__card{
+    height:unset !important;
+}
+
+.chat__err {
+    text-align: center;
+    background: #fcfcfc;
+}
+
+
+.scroll__modifier::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+.scroll__modifier::-webkit-scrollbar-track {
+  background: white;        /* color of the tracking area */
+}
+
+.scroll__modifier::-webkit-scrollbar-thumb {
+  background-color: rgba(98, 98, 195, 0.7);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid white;  /* creates padding around scroll thumb */
+}

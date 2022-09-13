@@ -1,0 +1,44 @@
+{
+  "name": "appchat",
+  "version": "1.0.0",
+  "description": "¡Importante!\r Instalar las dependencias con npm usando el siguiente comando:\r ```\r npm i ejs nodemon socket.io express\r ```\r Luego de realizarlo, ejecutar el comando que aparece a continuación, para inicializar el server en el puerto 8080:\r ```\r npm run dev\r ```",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon /src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "fork": "^1.3.1",
+    "knex": "^2.1.0",
+    "minimist": "^1.2.6",
+    "moment": "^2.29.3",
+    "mongoose": "^6.4.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.16",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.5.1",
+    "sqlite3": "^5.0.8",
+    "twilio": "^3.82.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobyCeballos/appchat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TobyCeballos/appchat/issues"
+  },
+  "homepage": "https://github.com/TobyCeballos/appchat#readme"
+}
